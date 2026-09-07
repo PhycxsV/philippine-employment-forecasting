@@ -1,0 +1,9 @@
+Model,Seasonal,Provides_Interval,Holdout_MAE,Holdout_Rank,Holdout_Rel_Naive,Rolling_MAE,Rolling_Rank,Rolling_Rel_Naive,Beats_Naive_Holdout,Beats_Naive_Rolling
+Seasonal naive,Yes,No,0.9098,2,0.8815,0.5294,1,0.7474,Yes,Yes
+"SARIMA(0, 1, 1)(1, 0, 0, 12)",Yes,Yes,0.8311,1,0.8053,0.5714,2,0.8067,Yes,Yes
+SES (level only),No,Yes,0.9372,3,0.9081,0.6072,3,0.8573,Yes,Yes
+"ARIMA(0, 1, 1)",No,Yes,0.9381,4,0.9089,0.6085,4,0.8591,Yes,Yes
+Naive (random walk),No,No,1.0321,5,1.0,0.7083,5,1.0,No,No
+Holt (damped trend),No,Yes,1.2825,6,1.2426,0.8641,6,1.22,No,No
+"Holt-Winters (damped, add.)",Yes,Yes,1.2982,7,1.2578,0.8778,7,1.2393,No,No
+Random walk with drift,No,No,1.6513,8,1.5999,1.2334,8,1.7414,No,No

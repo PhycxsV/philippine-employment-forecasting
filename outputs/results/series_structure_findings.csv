@@ -1,0 +1,7 @@
+Question,Evidence,Finding,Implication
+Does the series carry usable temporal dependence?,"Ljung-Box(12) on View B levels: statistic 312.445, p = 0.0",Reject the null,Determines whether a time-series model is warranted at all
+Is View B stationary in levels?,"ADF p = 0.2149, KPSS p = 0.01",Both tests point to non-stationarity,Determines whether differencing is required
+Is View B stationary after first differencing?,"ADF p = 0.0213, KPSS p = 0.0997",Both tests point to stationarity,Determines the differencing order d for ARIMA-family models
+Does trimming the recovery change the stationarity conclusion?,"View B-T levels: ADF p = 0.1655, KPSS p = 0.0299",Same conclusion as the full window,Indicates how sensitive the structural reading is to the recovery observations
+Is seasonality supported by evidence?,"Seasonal strength 0.7092 vs permutation-null mean 0.2257 (95th pct 0.4727), permutation p = 0.0; Kruskal-Wallis p = 0.058534",Supported by evidence - seasonal candidates admitted,Determines whether seasonal candidates may enter the model set
+Is the seasonal pattern stable enough to model?,"Most consistent months: Nov +0.51pp, Dec +0.50pp, Oct -0.22pp","3 of 12 months show a consistent, repeating effect",Distinguishes a usable recurring pattern from a strength measure inflated by a few irregular years

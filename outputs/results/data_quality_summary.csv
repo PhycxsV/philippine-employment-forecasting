@@ -1,0 +1,14 @@
+Check,Variable_or_Scope,Method,Result,Count,Decision,Reason
+Aggregate rows excluded,Month == 'Annual',Label filter on the Month column,22 annual summary rows separated from 264 calendar-month rows,22,Exclude from the time series,"Annual figures are summaries, not survey observations"
+Calendar grid completeness,Date index,Compare row count with a complete monthly date range,264 rows over a 264-month span; complete=True,264,Use as the calendar scaffold,Every calendar month is represented as a row
+Missing values (target),Employment Rate Both sexes,Count NaN after decoding '.' as missing,135 blank of 264 calendar-month rows,135,Retain as unobserved; do not impute,"Blanks reflect survey timing, not failed measurement"
+Missing-value pattern,All 12 indicators,Compare NaN masks across every indicator column,Identical missing pattern across all indicators: True,12,Treat missingness as row-level,Confirms 'month not surveyed' rather than variable-level failure
+Missing - leading,Before first observation,Dates earlier than the first observed value,3 months before Apr 2005,3,Exclude from all analysis,Survey series had not yet begun
+Missing - interior,Within observed span,Blank months between first and last observation,126 unsurveyed months inside the observed span,126,Retain as unobserved; do not impute,Interpolation would fabricate never-surveyed observations
+Missing - trailing,After last observation,Dates later than the last observed value,6 months after Jun 2026,6,Exclude; treat as future periods,Not yet published by the source
+Duplicate rows,All columns,pandas duplicated() across the full row,0 fully duplicated rows,0,No action required,No duplication detected
+Duplicate dates,Observation Date,duplicated() on the constructed date index,0 duplicated observation dates,0,No action required,Each date appears exactly once
+Duplicate date/value pairs,Date + Employment Rate Both sexes,duplicated() on the date/target pair,0 duplicated pairs; 2 distinct dates coincidentally share a value,0,Retain all observations,"Equal values on different dates are genuine, not duplicates"
+Invalid values,Employment Rate Both sexes,"Range check against the valid interval [0, 100]",0 values out of range; observed range 82.395-96.926,0,No action required,All values are plausible percentages
+Internal consistency,Employment + Unemployment,Verify the two rates sum to 100 for every observation,Maximum absolute deviation from 100 = 0.000000,129,Accept the extract as correctly parsed,Independent confirmation of download and parsing integrity
+Outlier screen,Employment Rate Both sexes (full history),"IQR fence (1.5x) and modified z-score (MAD), threshold 3.5",1 point(s) flagged; most extreme = 82.395 in Apr 2020,1,Retain; do not delete,"Flagged points are genuine economic shocks, not errors"

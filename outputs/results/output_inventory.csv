@@ -1,0 +1,54 @@
+Type,Folder,File,Size_KB
+Result table,outputs/results,ai_use_disclosure.csv,1.5
+Result table,outputs/results,arima_order_search.csv,0.4
+Result table,outputs/results,assumption_tests.csv,12.0
+Result table,outputs/results,business_recommendations.csv,1.8
+Result table,outputs/results,data_quality_summary.csv,2.7
+Result table,outputs/results,descriptive_statistics.csv,1.5
+Result table,outputs/results,employment_activity_signal.csv,0.7
+Result table,outputs/results,ethics_and_oversight.csv,2.5
+Result table,outputs/results,final_future_forecast.csv,1.4
+Result table,outputs/results,final_model_residuals.csv,2.3
+Result table,outputs/results,final_projection.csv,0.2
+Result table,outputs/results,forecast_error_by_horizon.csv,0.4
+Result table,outputs/results,forecast_interval_calibration.csv,1.4
+Result table,outputs/results,forecast_window_sensitivity.csv,0.2
+Result table,outputs/results,forecasting_design.csv,1.4
+Result table,outputs/results,frequency_audit.csv,1.7
+Result table,outputs/results,holdout_error_by_horizon.csv,0.5
+Result table,outputs/results,limitations.csv,3.8
+Result table,outputs/results,methodology_decisions.csv,5.1
+Result table,outputs/results,model_comparison.csv,0.8
+Result table,outputs/results,model_selection_scorecard.csv,0.7
+Result table,outputs/results,modeling_windows.csv,1.1
+Result table,outputs/results,output_inventory.csv,3.0
+Result table,outputs/results,robustness_results.csv,0.3
+Result table,outputs/results,rolling_origin_validation.csv,0.6
+Result table,outputs/results,run_confirmation.csv,0.7
+Result table,outputs/results,series_structure_findings.csv,1.3
+Result table,outputs/results,signal_thresholds.csv,2.0
+Result table,outputs/results,test_forecast_results.csv,1.8
+Result table,outputs/results,train_test_split.csv,0.2
+Result table,outputs/results,validation_agreement.csv,0.7
+Result table,outputs/results,window_sensitivity.csv,0.7
+Figure,outputs/figures,acf.png,84.1
+Figure,outputs/figures,analytical_data_views.png,261.1
+Figure,outputs/figures,distribution_by_era.png,105.4
+Figure,outputs/figures,employment_activity_signal.png,242.9
+Figure,outputs/figures,final_forecast.png,204.9
+Figure,outputs/figures,forecast_error_by_horizon.png,125.1
+Figure,outputs/figures,frequency_timeline.png,181.6
+Figure,outputs/figures,historical_employment.png,193.7
+Figure,outputs/figures,historical_reference_distribution.png,101.3
+Figure,outputs/figures,model_validation.png,264.1
+Figure,outputs/figures,monthly_modeling_series.png,163.9
+Figure,outputs/figures,pacf.png,71.0
+Figure,outputs/figures,residual_diagnostics.png,283.0
+Figure,outputs/figures,robustness_comparison.png,245.0
+Figure,outputs/figures,rolling_statistics.png,204.7
+Figure,outputs/figures,seasonal_decomposition.png,260.5
+Figure,outputs/figures,seasonality.png,67.5
+Figure,outputs/figures,seasonality_calibration.png,97.5
+Figure,outputs/figures,structural_change.png,177.2
+Figure,outputs/figures,train_test_split.png,148.6
+Documentation,outputs/documentation,methodology_decisions.md,6.1

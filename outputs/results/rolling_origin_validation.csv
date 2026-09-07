@@ -1,0 +1,9 @@
+Rank,Model,Origins,Forecasts,MAE,RMSE,MASE,Converged_At_All_Origins,Rel_MAE_vs_Naive,Beats_Naive
+1,Seasonal naive,13,156,0.5294,0.6989,1.0079,Yes,0.7474,Yes
+2,"SARIMA(0, 1, 1)(1, 0, 0, 12)",13,156,0.5714,0.748,1.088,Yes,0.8067,Yes
+3,SES (level only),13,156,0.6072,0.8098,1.1561,Yes,0.8573,Yes
+4,"ARIMA(0, 1, 1)",13,156,0.6085,0.8106,1.1586,Yes,0.8591,Yes
+5,Naive (random walk),13,156,0.7083,0.888,1.3488,Yes,1.0,No
+6,Holt (damped trend),13,156,0.8641,1.0692,1.6453,Yes,1.22,No
+7,"Holt-Winters (damped, add.)",13,156,0.8778,1.0952,1.6714,Yes,1.2393,No
+8,Random walk with drift,13,156,1.2334,1.49,2.3486,Yes,1.7414,No

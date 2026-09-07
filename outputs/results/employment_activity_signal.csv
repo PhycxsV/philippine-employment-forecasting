@@ -1,0 +1,7 @@
+Period,Forecast,Lower Bound,Upper Bound,Employment_Condition,Operational_Attention,Confidence,Conditions_Spanned,Employment_Condition_Long_History,Vs_Last_Observed
+Jul 2026,94.264,93.215,95.313,Subdued,LOW,Confident,Subdued,Above Normal,Lower
+Aug 2026,95.105,93.942,96.268,Below Normal,NORMAL,Uncertain,Subdued to Below Normal,Elevated,Similar
+Sep 2026,95.168,93.902,96.435,Below Normal,NORMAL,Uncertain,Subdued to Below Normal,Elevated,Similar
+Oct 2026,94.477,93.115,95.839,Subdued,LOW,Confident,Subdued,Above Normal,Lower
+Nov 2026,94.828,93.376,96.28,Subdued,LOW,Confident,Subdued,Elevated,Lower
+Dec 2026,94.828,93.292,96.364,Subdued,LOW,Confident,Subdued,Elevated,Lower

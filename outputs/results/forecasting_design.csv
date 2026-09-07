@@ -1,0 +1,7 @@
+Element,Specification,Justification
+Primary series,"View B - monthly, Jan 2021 to Jun 2026 (n=66)",Only continuously monthly run in the dataset (Section 4.3); equal spacing is required for a sequential model
+Parallel series,"View B-T - trimmed, Nov 2021 onward (n=56)",Tests whether conclusions depend on the recovery months; the cut-point was fixed in Section 9.2 before any model was estimated
+Holdout,Final 12 months held out; models trained on the preceding 54,"A full year ensures every calendar month is evaluated once, so a seasonal model cannot be favoured by a convenient test window"
+Secondary validation,"Rolling origin, expanding window, min train 42, horizons 1-12",A single holdout is one draw from one period. Repeating the exercise at many origins shows whether a ranking is stable or incidental
+Error metrics,"MAE, RMSE, MAPE, MASE, and MAE relative to the naive benchmark",MAE is the average error in percentage points; RMSE penalises large misses; MAPE is scale-free; MASE places error on a common scale across series; relative MAE compares each model directly against the naive benchmark evaluated on the identical periods
+Selection rule,"Lowest holdout MAE, subject to agreement from rolling-origin validation and to passing residual diagnostics",Guards against selecting a model that happens to suit one test period or that fits well while violating its own assumptions

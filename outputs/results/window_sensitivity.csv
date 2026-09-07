@@ -1,0 +1,9 @@
+Model,ViewB_MAE,ViewB_MASE,ViewBT_MAE,ViewBT_MASE,MAE_Difference,Better_Window
+"SARIMA(0, 1, 1)(1, 0, 0, 12)",0.8311,1.6607,0.8349,2.0813,0.0038,View B (full)
+Seasonal naive,0.9098,1.8181,0.9098,2.2681,0.0,View B (full)
+SES (level only),0.9372,1.8727,0.9353,2.3316,-0.0019,View B-T (trimmed)
+"ARIMA(0, 1, 1)",0.9381,1.8746,0.9365,2.3346,-0.0016,View B-T (trimmed)
+Naive (random walk),1.0321,2.0624,1.0321,2.5729,0.0,View B (full)
+Holt (damped trend),1.2825,2.5629,1.0652,2.6553,-0.2173,View B-T (trimmed)
+"Holt-Winters (damped, add.)",1.2982,2.5941,1.01,2.5179,-0.2882,View B-T (trimmed)
+Random walk with drift,1.6513,3.2997,1.4522,3.6201,-0.1991,View B-T (trimmed)

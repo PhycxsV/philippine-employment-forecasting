@@ -1,0 +1,23 @@
+Year,N_Observations,Months_Observed,Gaps_Months,Regime,Unobserved_Months_In_Span
+2005,3,"Apr,Jul,Oct","3,3",Quarterly rounds (partial year),6
+2006,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2007,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2008,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2009,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2010,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2011,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2012,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2013,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2014,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2015,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2016,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2017,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2018,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2019,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2020,4,"Jan,Apr,Jul,Oct","3,3,3,3",Quarterly (Jan/Apr/Jul/Oct rounds),8
+2021,12,"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","3,1,1,1,1,1,1,1,1,1,1,1",Monthly,0
+2022,12,"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","1,1,1,1,1,1,1,1,1,1,1,1",Monthly,0
+2023,12,"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","1,1,1,1,1,1,1,1,1,1,1,1",Monthly,0
+2024,12,"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","1,1,1,1,1,1,1,1,1,1,1,1",Monthly,0
+2025,12,"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","1,1,1,1,1,1,1,1,1,1,1,1",Monthly,0
+2026,6,"Jan,Feb,Mar,Apr,May,Jun","1,1,1,1,1,1",Monthly (partial year),0

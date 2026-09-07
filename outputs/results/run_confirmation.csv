@@ -1,0 +1,14 @@
+Check,Detail,Status
+Source file read,286 rows x 14 columns,PASS
+Observed months isolated,129 of 264 calendar months,PASS
+Employment + Unemployment = 100,max deviation 0.000000,PASS
+View B strictly monthly,n = 66,PASS
+View C strictly quarterly,n = 85,PASS
+Test period excluded from estimation,"train ends Jun 2025, test starts Jul 2025",PASS
+All candidates evaluated,"8 models, 13 rolling origins",PASS
+Final model selected,"SARIMA(0, 1, 1)(1, 0, 0, 12)",PASS
+Residual diagnostics recorded,5 tests,PASS
+Forecast produced,Jul 2026 to Dec 2026,PASS
+Signal assigned to every month,6 months,PASS
+Formal tests registered,20 tests,PASS
+All artifacts written,53 files,PASS

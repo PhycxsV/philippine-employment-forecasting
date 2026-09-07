@@ -1,0 +1,3 @@
+Series,Model,N,Span,Last_Observed,Forecast_Mean,Change,Direction,Holdout_MAE,Directions_Agree,Level_Gap_pp
+View B - monthly,"SARIMA(0, 1, 1)(1, 0, 0, 12)",66,Jan 2021 - Jun 2026,95.14,94.778,-0.362,falling,0.8311,True,0.214
+View C - quarterly,"ARIMA(0, 1, 1)",85,Apr 2005 - Apr 2026,95.294,94.992,-0.302,falling,0.5816,True,0.214
